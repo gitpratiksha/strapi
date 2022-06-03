@@ -16,8 +16,8 @@
       "type": "string"
     },
     "product_categories": {
-      "collection": "product-categories",
       "via": "products",
+      "collection": "product-categories",
       "dominant": true
     },
     "images": {

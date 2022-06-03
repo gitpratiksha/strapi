@@ -3,11 +3,13 @@
   "connection": "default",
   "collectionName": "product_categories",
   "info": {
-    "name": "product-category"
+    "name": "product-category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -20,8 +22,8 @@
       "type": "string"
     },
     "products": {
-      "via": "product_categories",
-      "collection": "product"
+      "collection": "product",
+      "via": "product_categories"
     },
     "feature_image": {
       "model": "file",

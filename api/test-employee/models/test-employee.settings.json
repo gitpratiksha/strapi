@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_employees",
+  "info": {
+    "name": "test employee"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
